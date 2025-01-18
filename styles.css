@@ -96,6 +96,7 @@ h1 {
   border: none;
   cursor: pointer;
   padding: 1rem 0 0 0;
+  background-color: transparent !important;
 }
 
 .job-title-and-dept {
