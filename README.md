@@ -34,8 +34,7 @@ The current design displays all job information at once, requiring users to scro
 
 ### Links
 
-- Solution URL: (https://github.com/Anikhe00/Testimonial-Cards)
-- Live Site URL: (https://testimonial-cards-omega.vercel.app/)
+- Live Site URL: (https://bsu-career-center.vercel.app/)
 
 ## My process
 
@@ -43,20 +42,21 @@ The current design displays all job information at once, requiring users to scro
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
 - Mobile-first workflow
+- JavaScript
+- jQuery
 
 ### What I learned
 
-I learned about CSS Grid and it row, column, and span properties.
+I learned how to use jQuery events "click()", I also used chatGPT to debug when I faced issue with the dropdown effect.
 
 ### Continued development
 
-Moving forward I will be practicing developing this layout using grid-template-areas and how to customize it.
+Moving forward I will be practicing DOM manipulations and jQuery.
 
 ## Author
 
 - Website - [Shakirat Akanji](https://shakeerah.framer.website/)
-- Frontend Mentor - [@Anikhe00](https://www.frontendmentor.io/profile/Anikhe00)
 - Twitter - [@i_am_anikhe](https://x.com/I_am_anikhe)
+- LinkedIn - [Shakirat Akanji] (https://www.linkedin.com/in/shakirat-akanji/)
 
