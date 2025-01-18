@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
+}
+
+:root {
+  --red: #ba0c2f;
+  --light-red: #F23B60;
+  --text-color: #121212;
+  --secondary-text: #333333;
+  --background-color: #f2f2f2;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+header {
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.title-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: normal;
+  color: var(--text-color);
+}
+
+.title-section p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secondary-text);
+  line-height: normal;
+}
+
+.job-postings {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.job-post {
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.job-post.expanded {
+  max-height: 2000px;
+}
+
+.toggle-button {
+  font-size: 1rem;
+  font-weight: 500;
+  width: fit-content;
+  color: var(--red);
+  border: none;
+  cursor: pointer;
+  padding: 1rem 0 0 0;
+}
+
+.toggle-button:hover {
+  color: var(--light-red);
+}
+
+.job-title-and-dept {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.job-title-and-dept > h2 {
+  font-size: 2rem;
+  line-height: normal;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--text-color);
+}
+
+.job-title-and-dept > p, .job-description > p, li{
+  font-size: 1rem;
+  line-height: normal;
+  font-weight: 400;
+  color: var(--secondary-text);
+}
+
+.job-description, .qualifications, .additional-details, .how-to-apply{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 0; 
+  padding-left: 0.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--secondary-text);
+}
+
+.the-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.email {
+  color: var(--red);
+}
+
+.email:hover {
+  color: var(--light-red);
+}
+
+.divider {
+  margin: 2px 0;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bsu-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+  background-color: var(--text-color);
+  padding: 1rem;
+}
+
+.bsu-info > p {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: normal;
+  font-weight: 400;
+  color: #f2f2f2;
+}
+
+html, body {
+  overscroll-behavior: none; 
+}
+
+@media screen and (min-width: 50rem) {
+  header {
+    background-color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0.75rem 10rem;
+    width: 100%;
+    height: auto;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: normal;
+    color: var(--text-color);
+  }
+  
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary-text);
+    line-height: normal;
+  }
+
+  
+}
