@@ -52,7 +52,7 @@ main {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-transform: uppercase;
   line-height: normal;
@@ -96,10 +96,6 @@ h1 {
   border: none;
   cursor: pointer;
   padding: 1rem 0 0 0;
-}
-
-.toggle-button:hover {
-  color: var(--light-red);
 }
 
 .job-title-and-dept {
@@ -252,5 +248,7 @@ html, body {
     line-height: normal;
   }
 
-  
+  .toggle-button:hover {
+    color: var(--light-red);
+  }
 }
