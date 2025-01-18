@@ -24,7 +24,7 @@ The current design displays all job information at once, requiring users to scro
 
 ### Screenshot
 
-#### MY Redesign
+#### My Redesign
 
 ![](./Images/Screenshot%202025-01-18%20at%2007.22.36.png)
 
