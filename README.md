@@ -20,11 +20,17 @@ This is a redesign of the current BSU Career Center Page (https://prodapps.bsu.e
 ### The challenge
 
 The current design displays all job information at once, requiring users to scroll down to view other job postings if they are not interested in the first one. The goal is to enhance the user experience on this page by ensuring users can:
-- Collapse and expand job posting of their choice
+- Collapse and expand the job posting of their choice
 
 ### Screenshot
 
-![](./images/screencapture-testimonial-cards-omega-vercel-app-2025-01-16-16_56_09.png)
+#### MY Redesign
+
+![](./Images/Screenshot%202025-01-18%20at%2007.22.36.png)
+
+#### Old Design
+
+![](./Images/BSU%20OLD%20DESIGN.png)
 
 ### Links
 
